@@ -37,14 +37,27 @@ Recall was prioritized due to the business importance of identifying potential c
 | Random Forest | ~78% | Better | Handles non-linearities |
 | Gradient Boosting | ~80% | Best | Strong bias-variance tradeoff |
 
-## 🏆 Final Recommendation
-Gradient Boosting provided the best balance between recall and overall performance, making it the most suitable model for proactive churn prevention strategies.
+## Final Recommendation
+
+If the primary business objective is to proactively identify as many potential churners as possible,
+Logistic Regression is the recommended model due to its highest recall for churned customers.
+
+Although Gradient Boosting achieves higher overall accuracy, it misses a larger proportion of churners,
+which is undesirable in a churn prevention scenario.
+
+Random Forest provides a good tradeoff between recall and precision and can be considered if a more
+balanced approach is required.
 
 ## 💼 Business Impact
 The model can help businesses:
 - Identify high-risk customers
 - Trigger targeted retention campaigns
 - Optimize discounts and follow-ups
+
+## What I'd Explain to a Customer
+
+“This model helps prioritize which customers are likely to leave so retention teams can focus their efforts more effectively.”
+
 
 ## 🚀 How to Run
 ```bash
