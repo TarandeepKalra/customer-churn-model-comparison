@@ -54,6 +54,11 @@ The model can help businesses:
 - Trigger targeted retention campaigns
 - Optimize discounts and follow-ups
 
+## What I'd Explain to a Customer
+
+“This model helps prioritize which customers are likely to leave so retention teams can focus their efforts more effectively.”
+
+
 ## 🚀 How to Run
 ```bash
 pip install -r requirements.txt
