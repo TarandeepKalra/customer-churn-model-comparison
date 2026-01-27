@@ -13,5 +13,4 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Data files (optional)
-data/
+
