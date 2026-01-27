@@ -37,6 +37,14 @@ Recall was prioritized due to the business importance of identifying potential c
 | Random Forest | ~78% | Better | Handles non-linearities |
 | Gradient Boosting | ~80% | Best | Strong bias-variance tradeoff |
 
+## 📊 Model Performance Comparison
+
+The bar chart below compares **churn recall** across different models.
+Recall is prioritized since missing a churner has a higher business cost.
+
+![Churn Recall Comparison](images/churn_recall_comparison.png)
+
+
 ## Final Recommendation
 
 If the primary business objective is to proactively identify as many potential churners as possible,
