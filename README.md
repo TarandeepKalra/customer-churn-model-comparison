@@ -66,6 +66,21 @@ The model can help businesses:
 
 “This model helps prioritize which customers are likely to leave so retention teams can focus their efforts more effectively.”
 
+## Model Explainability (SHAP)
+
+To improve business interpretability, SHAP was used to explain the Gradient Boosting model.
+
+### Global Insights
+- Contract type significantly impacts customer retention
+- Customers with no online security and higher monthly charges are highly likely to churn
+
+![SHAP Summary](images/shap_summary.png)
+
+### Individual Prediction Explanation
+SHAP was also used to explain churn prediction for a single customer.
+
+![SHAP Force](images/Customer_Churn_Estimate.png)
+
 
 ## 🚀 How to Run
 ```bash
