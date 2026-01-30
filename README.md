@@ -81,6 +81,10 @@ SHAP was also used to explain churn prediction for a single customer.
 
 ![SHAP Force](images/Customer_Churn_Estimate.png)
 
+### Threshold Tuning
+We observed the change in Precision & Recall metric with decision threshold which is a great way to tune the model for a specific business need
+![Threshold Tuning](images/Decision_Threshold_Tuning.png)
+
 
 ## 🚀 How to Run
 ```bash
